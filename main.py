@@ -30,7 +30,7 @@ def create_pdf(input_string, output_file):
     formatted_text = format_text_for_pdf(input_string)
 
     # Ensure the font file is in the correct path
-    font_path = 'G:/cs/api_project/Amiri-0.112/Amiri-0.112/Amiri-Regular.ttf'  # Ensure this is the correct path to the TTF file
+    font_path = 'Amiri-Regular.ttf'  # Ensure this is the correct path to the TTF file
     if not os.path.isfile(font_path):
         raise FileNotFoundError(f"Font file not found: {font_path}")
 
