@@ -1,7 +1,6 @@
 fastapi[all]
 reportlab[all]
 google-generativeai
-re
 os
 arabic_reshaper
 bidi[all]
