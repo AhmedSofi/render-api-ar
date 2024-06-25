@@ -13,7 +13,7 @@ from bidi.algorithm import get_display
 app = FastAPI()
 
 def gemini(question_and_answer: str):
-    genai.configure(api_key='AIzaSyAFAmVIP6l33PQUj5G0Yk05RyH9u42g1gg')
+    genai.configure(api_key='AIzaSyD71NlNFI6PtmqhbnqXequbdHMthkz17D4')
     model = genai.GenerativeModel('gemini-pro')
     response = model.generate_content(
         f'صف كل سؤال وإجابته، وقدم معلومات عن السؤال والإجابة، وطرق العلاج إن وجدت، وما إذا كان يتطلب استشارة طبيب أم لا. {question_and_answer}'
